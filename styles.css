@@ -1,0 +1,256 @@
+html{
+    line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body{
+    margin: 0;
+}
+
+
+.container{
+    width: 902px;
+    height: 705px;
+    margin: 0 auto;
+}
+
+.authorization{
+    width: 500px;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.authorization-title{
+    width: 232px;
+    height: 37px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+    
+
+
+.title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #181C32;
+    
+}
+
+.description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B5B5C3;
+    text-align: center;
+    margin-top: 5px;;
+}
+
+
+.login-with{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 27px;
+}
+.login-button{
+    width: 200px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: transparent;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B5B5C3;
+
+}
+
+.login-button.google{
+    margin-right: 5px;
+}
+
+.login-button.apple{
+    margin-left: 5px;
+}
+
+.google-icon{
+    position: absolute;
+    width: 16px;
+    margin-left: -26px;
+       
+}
+
+.apple-icon{
+    position: absolute;
+    width: 16px;
+    margin-left: -26px;
+    margin-top: -3px; 
+}
+
+fieldset{
+    margin: 0 auto;
+    width: 390px;
+    border-top: solid 1px #B5B5C3;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    
+}
+
+.form-title{
+font-family: 'Montserrat',serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #B5B5C3;
+text-align: center;
+
+}
+
+.email{
+    width: 390px;
+    height: 35px;
+    border-radius: 6px;
+    border: solid 1px #B5B5C3;
+
+}
+
+.password{
+    width: 390px;
+    height: 35px;
+    border-radius: 6px;
+    border: solid 1px #B5B5C3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 27px;
+}
+
+.submit {
+    width: 390px;
+    height: 35px;
+    border-radius: 6px;
+    border: solid 1px #3192D0;
+    background-color: #3192D0;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #3192D0;
+}
+
+.privacy-policy-text{
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.privacy-policy-checkbox{
+    margin-bottom: 27px;
+}
+
+.registration-link,.forgot-password{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+p, span{
+    color: #5e6278;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.registration-link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 193px;
+}
+
+.section-footer{
+    width: 390px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 12px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sidebar{
+    width: 392px;
+    height: 670px;
+    border-radius: 24px;
+    background: linear-gradient(147.63deg, #3192D0 0.81%, #36ABFF 100.04%);
+    border-radius: 24px;
+    margin-left: 66px;
+
+}
+
+.logo {
+    margin-top: 34px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+.blure-fone{
+    position: relative;
+}
+
+.side-bar_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 39px;
+}
+
+.side-bar_img{
+    width: 456px;
+    height: 456px;
+    position: absolute;
+    top: 25%;
+    right: 23%;
+}
+
+
+
+
+
+
+.container{
+    margin: 0 auto;
+    max-width:1000px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
